@@ -205,6 +205,7 @@
   };
 
   app.selectedCities = localStorage.selectedCities;
+  console.log('hello');
 
   if (app.selectedCities) {
     app.selectedCities = JSON.parse(app.selectedCities);
